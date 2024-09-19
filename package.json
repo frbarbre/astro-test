@@ -1,0 +1,31 @@
+{
+  "name": "conversio-dk-astro",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.3",
+    "@astrojs/react": "^3.6.2",
+    "@astrojs/tailwind": "^5.1.1",
+    "@types/react": "^18.3.7",
+    "@types/react-dom": "^18.3.0",
+    "astro": "^4.15.8",
+    "graphql": "^16.9.0",
+    "graphql-tag": "^2.12.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.12",
+    "typescript": "^5.6.2"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "5.0.0",
+    "@graphql-codegen/client-preset": "4.3.3",
+    "@graphql-codegen/schema-ast": "^4.1.0"
+  }
+}
